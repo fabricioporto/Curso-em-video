@@ -5,7 +5,7 @@
     src: url(../fontes/idroid.otf) format('opentype');
     font-weight: normal;
     font-family: 'footer';
-    src: url(../fontes/Fonte\ nome.otf) format('opentype');
+    src: url(../fontes/Fonte\ nome2.otf) format('opentype');
     font-weight: normal;
 }
 
@@ -56,7 +56,11 @@ main h2 {
 }
 footer {
     background-color: var(--cor5);
-    color: white;
+    color: var(--cor0);
     text-align: center;
     font-family: var(--fonte-footer);
+    font-size: 30px;
+}
+footer > strong {
+    color: rgba(233, 145, 145, 0.795);
 }
